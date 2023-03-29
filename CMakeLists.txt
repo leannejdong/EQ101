@@ -96,7 +96,7 @@ target_compile_definitions(AudioPluginEQ
 # linked automatically. If we'd generated a binary data target above, we would need to link to it
 # here too. This is a standard CMake command.
 
-target_link_libraries(AudioPluginExample PRIVATE
+target_link_libraries(AudioPluginEQ PRIVATE
     # AudioPluginData           # If we'd created a binary data target, we'd link to it here
     juce::juce_audio_utils)
 
